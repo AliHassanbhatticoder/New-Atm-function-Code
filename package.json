@@ -1,7 +1,7 @@
 {
   "name": "newproject786-atm-function",
-  "version": "2.0.7",
-  "description": "",
+  "version": "2.0.8", 
+  "description": "ATM function library for Node.js",
   "main": "main.js",
   "bin": {
     "newproject786-atm-function": "main.js"
@@ -10,12 +10,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "ATM",
+    "bank",
+    "function"
+  ],
   "author": "Alihassan",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.16",
-    "newproject786-atm-function": "^1.0.6"
+    "inquirer": "^9.2.16"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
